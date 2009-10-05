@@ -1,0 +1,23 @@
+<h1>Jornadas</h1>
+
+<table>
+  <tr>
+    <th>Jornada</th>
+    <th>Fecha de inicio</th>
+    <th>Fecha de fin</th>
+  </tr>
+
+<% @weeks.each do |week| %>
+  <tr>
+    <td><%= link_to week.id, week %></td>
+    <td><%=h week.startdate %></td>
+    <td><%=h week.enddate %></td>
+    <td><%= link_to 'Editar', edit_week_path(week) %></td>
+    <td><%= link_to 'Borrar', week, :confirm => 'Estas seguro que deseas borrar la jornada?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Agregar jornada', new_week_path %>

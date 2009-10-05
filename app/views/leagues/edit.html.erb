@@ -1,0 +1,19 @@
+<h1>Editar liga</h1>
+
+<% form_for(@league) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <label for= "leaguename"> Nombre de la liga: </label><br/>
+    <%= f.text_field :leaguename %>
+  </p>
+  <p>
+    <label for= "leaguesubdomain">Nombre de Dominio: </label><br/><%= f.label :leaguesubdomain %><br />
+    <%= f.text_field :leaguesubdomain %>
+  </p>
+  <p>
+    <%= f.submit 'Guardar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a ligas', leagues_path %>

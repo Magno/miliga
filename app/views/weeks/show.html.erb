@@ -1,0 +1,36 @@
+<h1> Jornada no. <%=h @week.id %> </h1>
+
+<p>
+  <b>Fecha de Inicio:</b>
+  <%=h @week.startdate %>
+</p>
+
+<p>
+  <b>Fecha de fin:</b>
+  <%=h @week.enddate %>
+</p>
+
+<table>
+	<h2>Encuentros</h2>
+		<tr>
+			<th>Equipo Local</th>
+			<th>Equipo Visitante</th>
+			<th>Fecha de encuentro</th>
+			<th>Hora de encuentro</th>
+		</tr>
+
+<% @matches.each do | match |%>
+		<tr>
+			<td><%= link_to  match.team1id, match %></td>
+			<td><%= link_to  match.team2id, match %></td>
+			<td><%= match.matchdate %></td>
+			<td><%= match.matchtime%></td>
+			<td><%= link_to 'Editar', edit_match_path(match) %></td>
+	    <td><%= link_to 'Borrar', match, :confirm => 'Estas seguro de que deseas borrar el encuentro?', :method => :delete %></td>
+		</tr>
+
+<%end%>
+
+</table>
+<%= link_to 'Agregar Encuentro', new_match_path(:week_id => @week.id) %>
+<%= link_to 'Regresar a jornadas', weeks_path %>

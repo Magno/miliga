@@ -1,0 +1,23 @@
+<h1>Editar Torneo</h1>
+
+<% form_for(@tournament) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+		<label for= ":tournament"> Nombre del torneo: </label> <br />
+    <%= f.text_field :tournamentname %>
+  </p>
+  <p>
+    <label for= ":startdate"> Fecha de inicio: <br />
+    <%= f.date_select :startdate %>
+  </p>
+  <p>
+    <label for= ":enddate" > Fecha de fin:<br />
+    <%= f.date_select :enddate %>
+  </p>
+  <p>
+    <%= f.submit 'Guardar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Torneos', tournaments_path %>

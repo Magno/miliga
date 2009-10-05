@@ -1,0 +1,23 @@
+<h1>Jugadores</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Correo Electr&oacute;nico</th>
+    <th>Tel&eacute;fono</th>
+  </tr>
+
+<% @players.each do |player| %>
+  <tr>
+    <td><%= link_to player.playername, player %></td>
+    <td><%=h player.playeremail %></td>
+    <td><%=h player.playerphonenumber %></td>
+    <td><%= link_to 'Editar', edit_player_path(player) %></td>
+    <td><%= link_to 'Borrar', player, :confirm => 'Estas seguro de que deseas borrar al jugador?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New player', new_player_path %>

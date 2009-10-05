@@ -1,0 +1,25 @@
+<h1>Agregar jugador</h1>
+
+<% form_for(@player) do |f| %>
+  <%= f.error_messages %>
+
+<%= f.hidden_field :team_id %>
+
+  <p>
+    <label for= "playername"> Nombre: </label><br/>
+    <%= f.text_field :playername %>
+  </p>
+  <p>
+    <label for= "playeremail"> Correo Electr&oacute;nico: </label><br/>
+    <%= f.text_field :playeremail %>
+  </p>
+  <p>
+    <label for= "playerphonenumber"> Tel&eacute;fono: </label><br/>
+    <%= f.text_field :playerphonenumber %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Jugadores', players_path %>

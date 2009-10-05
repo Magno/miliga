@@ -1,0 +1,21 @@
+<h1>Mis Ligas</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Dominio</th>
+  </tr>
+
+<% @leagues.each do |league| %>
+  <tr>
+    <td><%= link_to league.leaguename, league %></td>
+    <td><%=h league.leaguesubdomain%>.miliga.com</td>
+    <td><%= link_to 'Editar', edit_league_path(league) %></td>
+    <td><%= link_to 'Borrar', league, :confirm => 'Estas seguro que deseas borrar la liga?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Agregar Liga', new_league_path %>

@@ -1,0 +1,25 @@
+<h1>Agregar Torneo</h1>
+
+<% form_for(@tournament) do |f| %>
+  <%= f.error_messages %>
+
+<%= f.hidden_field :league_id %>
+
+  <p>
+    <label for= "tournamentname"> Nombre: </label><br/>
+    <%= f.text_field :tournamentname %>
+  </p>
+  <p>
+    <label for= "startdate"> Fecha de inicio: </label><br/>
+    <%= f.date_select :startdate %>
+  </p>
+  <p>
+    <label for= "enddate"> Fecha de fin: </label><br/>
+    <%= f.date_select :enddate %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Torneos', tournaments_path %>

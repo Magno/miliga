@@ -1,0 +1,20 @@
+<h1>Agregar Liga</h1>
+
+<% form_for(@league) do |f| %>
+
+  <%= f.error_messages %>
+  
+  <p>
+    <label for= "leaguename"> Nombre de la liga: </label><br/>
+    <%= f.text_field :leaguename %>
+  </p>
+  <p>
+		<label for= "leaguesubdomain">Nombre de Dominio: </label><br/>
+    <%= f.text_field :leaguesubdomain %> miliga.com
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Ligas', leagues_path %>

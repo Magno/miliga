@@ -1,0 +1,54 @@
+<p>
+  <h1> Liga <%=h @league.leaguename %> </h1>
+</p>
+
+<p>
+  <b>Dominio:</b>
+  <%=h @league.leaguesubdomain %>.miliga.com
+</p>
+
+<table>
+<h2>Torneos</h2>
+  <tr>
+    <th>Nombre</th>
+    <th>Fecha de Inicio</th>
+    <th>Fecha de Fin</th>
+  </tr>
+<% @tournaments.each do | tournament | %>
+  <tr>
+		<td><%= link_to tournament.tournamentname, tournament %></td>
+		<td><%= tournament.startdate %></td>
+		<td><%= tournament.enddate %></td>
+		<td><%= link_to 'Edit', edit_tournament_path(tournament) %></td>
+    <td><%= link_to 'Destroy', tournament, :confirm => 'Are you sure?', :method => :delete %></td>
+
+   
+  </tr>
+<% end %>
+
+</table>
+	<%= link_to 'Agregar Torneo', new_tournament_path(:league_id => @league.id) %> 
+<table>
+<h2>Equipos</h2>
+  <tr>
+    <th>Listado de Equipos</th>
+
+  </tr>
+<% @teams.each do | team | %>
+  <tr>
+		<td><%= link_to team.teamname, team %></td>
+		<td><%= link_to 'Edit', edit_team_path(team) %></td>
+    <td><%= link_to 'Destroy', team, :confirm => 'Are you sure?', :method => :delete %></td>   
+  </tr>
+<% end %>
+
+</table>
+<%= link_to 'Agregar Equipo', new_team_path(:league_id => @league.id) %> 	
+
+<br />
+
+	
+	<%= link_to 'Regresar a Ligas', leagues_path %> |
+
+
+

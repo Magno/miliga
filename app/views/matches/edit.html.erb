@@ -1,0 +1,28 @@
+<h1>Editar Encuentro</h1>
+
+<% form_for(@match) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <label for= ":team1id" > Equipo Local</label><br />
+    <%= f.text_field :team1id %>
+  </p>
+  <p>
+    <label for= ":team2id" > Equipo Visitante</label><br />
+    <%= f.text_field :team2id %>
+  </p>
+  <p>
+    <label for= ":matchdate" >Fecha del Encuentro</label><br />
+    <%= f.date_select :matchdate %>
+  </p>
+  <p>
+    <label for= ":matchtime" > Hora del encuentro</label><br />
+    <%= f.datetime_select :matchtime %>
+  </p>
+  <p>
+    <%= f.submit 'Guardar' %>
+  </p>
+<% end %>
+
+
+<%= link_to 'Regresar a encuentros', matches_path %>

@@ -1,0 +1,23 @@
+<p>
+  <b>Equipo Local:</b>
+  <%=h @match.team1id %>
+</p>
+
+<p>
+  <b>Equipo Visitante:</b>
+  <%=h @match.team2id %>
+</p>
+
+<p>
+  <b>Fecha del Encuentro:</b>
+  <%=h @match.matchdate %>
+</p>
+
+<p>
+  <b>Hora del Encuentro:</b>
+  <%=h @match.matchtime %>
+</p>
+
+
+<%= link_to 'Editar', edit_match_path(@match) %> |
+<%= link_to 'Regresar a Encuentros', matches_path %>

@@ -1,0 +1,23 @@
+<h1>Editar Jugador</h1>
+
+<% form_for(@player) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <label for= ":playername" >Nombre </label><br />
+    <%= f.text_field :playername %>
+  </p>
+  <p>
+    <label for= ":playeremail"></label> Correo Electr&oacute;nico<br />
+    <%= f.text_field :playeremail %>
+  </p>
+  <p>
+    <label for= ":playerphonenumber" >Tel&eacute;fono</label> <br />
+    <%= f.text_field :playerphonenumber %>
+  </p>
+  <p>
+    <%= f.submit 'Guardar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Jugadores', players_path %>

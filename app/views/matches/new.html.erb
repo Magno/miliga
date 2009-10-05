@@ -1,0 +1,29 @@
+<h1>Agregar Encuentro</h1>
+
+<% form_for(@match) do |f| %>
+  <%= f.error_messages %>
+
+<%= f.hidden_field :week_id %>
+
+  <p>
+    <label for= "team1id"> Equipo Local: </label><br/>
+    <%= f.text_field :team1id %>
+  </p>
+  <p>
+    <label for= "team2id"> Equipo visitante: </label><br/>
+    <%= f.text_field :team2id %>
+  </p>
+  <p>
+    <label for= "matchdate"> Fecha de encuentro: </label><br/>
+    <%= f.date_select :matchdate %>
+  </p>
+  <p>
+    <label for= "matchtime"> Hora de encuentro: </label><br/>
+    <%= f.datetime_select :matchtime %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', matches_path %>

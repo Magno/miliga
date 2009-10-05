@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  leagueid: 1
+  tournamentname: MyString
+  startdate: 2009-09-27
+  enddate: 2009-09-27
+
+two:
+  leagueid: 1
+  tournamentname: MyString
+  startdate: 2009-09-27
+  enddate: 2009-09-27

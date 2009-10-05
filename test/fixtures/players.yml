@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  teamid: 1
+  playername: MyString
+  playeremail: MyString
+  playerphonenumber: 1
+
+two:
+  teamid: 1
+  playername: MyString
+  playeremail: MyString
+  playerphonenumber: 1

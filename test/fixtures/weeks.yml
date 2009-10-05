@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tournamentid: 1
+  weekid: 1
+  startdate: 2009-09-27
+  enddate: 2009-09-27
+
+two:
+  tournamentid: 1
+  weekid: 1
+  startdate: 2009-09-27
+  enddate: 2009-09-27

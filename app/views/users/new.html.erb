@@ -1,0 +1,33 @@
+<% form_for :user, :url => users_path do |f| -%>
+
+<h1>Forma de registro</h1>
+
+	<%= error_messages_for :user %>
+
+	<% if flash[:info] %> 
+		<div id="Flash" class="flash_info"> 
+			<%= flash[:info] %> 
+		</div> 
+	<% end %>
+
+<p class="obligatory_explain">Todos los campos marcados con <span class="asterix">*</span> son obligatorios</p>
+
+<p><label for="name">Nombre de usuario</label><br/>
+<%= f.text_field :name, :class => "obligatory" %><span class="asterix">*</span></p>
+
+<p><label for="lastname">Apellidos</label><br/>
+<%= f.text_field :lastname, :class => "obligatory" %><span class="asterix">*</span></p>
+
+
+<p><label for="email">Correo Electr&oacute;nico</label><br/>
+<%= f.text_field :email, :class => "obligatory" %><span class="asterix">*</span></p>
+
+<p><label for="password">Contrase&ntilde;a</label><br/>
+<%= f.password_field :password, :class => "obligatory" %><span class="asterix">*</span></p>
+<p>La contrase&ntilde;a debe ser de al menos 8 caracteres.</p>
+
+<p><label for="password_confirmation">Confirmaci&oacute;n de contrase&ntilde;a </label><br/>
+<%= f.password_field :password_confirmation, :class => "obligatory" %><span class="asterix">*</span></p>
+
+<p><%= submit_tag 'Registrarme' %></p>
+<% end -%>

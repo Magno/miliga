@@ -1,0 +1,18 @@
+<h1>Agregar Equipo</h1>
+
+<% form_for(@team) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <label for= "teamname"> Nombre: </label><br/>
+    <%= f.text_field :teamname %>
+  </p>
+
+<%= f.hidden_field :league_id %>
+
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Equipos', teams_path %>

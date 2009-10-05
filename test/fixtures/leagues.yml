@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  userid: 1
+  leaguename: MyString
+  leaguesubdomain: MyString
+
+two:
+  userid: 1
+  leaguename: MyString
+  leaguesubdomain: MyString

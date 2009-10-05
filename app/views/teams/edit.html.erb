@@ -1,0 +1,15 @@
+<h1>Editar Equipo</h1>
+
+<% form_for(@team) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <label for= ":teamname" ></label><br />
+    <%= f.text_field :teamname %>
+  </p>
+  <p>
+    <%= f.submit 'Guardar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Regresar a Equipos', teams_path %>

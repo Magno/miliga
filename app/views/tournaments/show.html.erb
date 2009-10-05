@@ -1,0 +1,36 @@
+  <h1>  <%=h @tournament.tournamentname %> </h1>
+
+<p>
+  <b>Fecha de inicio</b>
+  <%=h @tournament.startdate %>
+</p>
+
+<p>
+  <b>Fecha de fin:</b>
+  <%=h @tournament.enddate %>
+</p>
+
+
+<table>
+<h2>Jornadas</h2>
+  <tr>
+    <th>Jornada</th>
+    <th>Fecha de Inicio</th>
+    <th>Fecha de Fin</th>
+  </tr>
+<% @weeks.each do | week | %>
+  <tr>
+		<td>Jornada <%= link_to week.id, week %></td>
+		<td><%= week.startdate %></td>
+		<td><%= week.enddate %></td>
+		<td><%= link_to 'Editar', edit_week_path(week) %></td>
+    <td><%= link_to 'Borrar', week, :confirm => 'Esta seguro que desea borrar la jornada?', :method => :delete %></td>
+
+   
+  </tr>
+<% end %>
+
+</table>
+
+<%= link_to 'Agregar Jornada', new_week_path(:tournament_id => @tournament.id)%> |
+<%= link_to 'Regresar a Torneos', tournaments_path %> |

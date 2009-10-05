@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  weekid: 1
+  team1id: 1
+  team2id: 1
+  matchdate: 2009-09-27
+  matchtime: 2009-09-27 21:32:13
+
+two:
+  weekid: 1
+  team1id: 1
+  team2id: 1
+  matchdate: 2009-09-27
+  matchtime: 2009-09-27 21:32:13
