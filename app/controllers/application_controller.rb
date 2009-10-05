@@ -12,6 +12,11 @@ include AuthenticatedSystem
   # filter_parameter_logging :password
 	session :session_key => '_authenticator_session_id'
 
+  def param_posted?(symbol)
+    request.post? and params[symbol]
+  end
+
+
 	private
 
 	def load_league
@@ -21,5 +26,7 @@ include AuthenticatedSystem
 			redirect_to root_url
 		end
 	end
+
+
 
 end

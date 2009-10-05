@@ -19562,3 +19562,1327 @@ Rendering leagues/show
   [4;36;1mTeam Load (0.7ms)[0m   [0;1mSELECT * FROM `teams` WHERE (`teams`.league_id = 1) [0m
   [4;35;1mTeam Columns (9.4ms)[0m   [0mSHOW FIELDS FROM `teams`[0m
 Completed in 340ms (View: 221, DB: 15) | 200 OK [http://mexicana.miliga.local/]
+** SubdomainFu: initialized properly
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-10-05 15:41:13) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-10-05 20:41:13', `remember_token_expires_at` = NULL, `remember_token` = NULL WHERE `id` = 1[0m
+  [4;36;1mSQL (6.8ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://mexicana.miliga.local/
+Completed in 32ms (DB: 10) | 302 Found [http://mexicana.miliga.local/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#show (for 127.0.0.1 at 2009-10-05 15:41:13) [GET]
+Redirected to http://mexicana.miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://mexicana.miliga.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:41:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:41:29) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:41:43) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:41:46) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 12ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 15:41:52) [GET]
+  [4;35;1mUser Columns (3.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/leagues
+Rendering leagues/index
+  [4;35;1mLeague Load (0.1ms)[0m   [0mSELECT * FROM `leagues` WHERE (`leagues`.user_id = 1) [0m
+  [4;36;1mLeague Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `leagues`[0m
+Completed in 61ms (View: 29, DB: 5) | 200 OK [http://miliga.local/leagues]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-10-05 15:42:00) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.1ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://miliga.local/
+Completed in 9ms (DB: 2) | 302 Found [http://miliga.local/logout]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:42:00) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 15:42:05) [GET]
+Redirected to http://miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://miliga.local/leagues]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:42:05) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/session/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-10-05 15:42:17) [POST]
+  Parameters: {"commit"=>"Entrar", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "password"=>"", "email"=>"magno.gutierrez@gmail.com"}
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (email = 'magno.gutierrez@gmail.com' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 4, DB: 2) | 200 OK [http://miliga.local/session]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:42:22) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:42:25) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-10-05 15:42:31) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 46ms (View: 40, DB: 0) | 200 OK [http://miliga.local/register]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-10-05 15:42:34) [POST]
+  Parameters: {"commit"=>"Registrarme", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"name"=>"", "password_confirmation"=>"", "lastname"=>"", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}}
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'magno.gutierrez@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 313ms (View: 27, DB: 3) | 200 OK [http://miliga.local/users]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-10-05 15:42:46) [POST]
+  Parameters: {"commit"=>"Registrarme", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"name"=>"magno", "password_confirmation"=>"", "lastname"=>"gutz", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}}
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'magno.gutierrez@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 40ms (View: 7, DB: 3) | 200 OK [http://miliga.local/users]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-10-05 15:43:28) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: activate, create, and new):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-10-05 15:43:37) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/register]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-10-05 15:43:39) [POST]
+  Parameters: {"commit"=>"Registrarme", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"name"=>"", "password_confirmation"=>"", "lastname"=>"", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}}
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'magno.gutierrez@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 21ms (View: 5, DB: 2) | 200 OK [http://miliga.local/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-10-05 15:43:54) [POST]
+  Parameters: {"commit"=>"Registrarme", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"name"=>"", "password_confirmation"=>"", "lastname"=>"", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}}
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.1ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'magno.gutierrez@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 19ms (View: 3, DB: 2) | 200 OK [http://miliga.local/users]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-10-05 15:43:59) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/register]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:44:08) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#show (for 127.0.0.1 at 2009-10-05 15:44:30) [GET]
+Redirected to http://mexicana.miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://mexicana.miliga.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:44:31) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 15:44:39) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:04:57) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 25ms (View: 16, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:04:58) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 2) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-05 16:05:01) [GET]
+
+ActionController::RoutingError (No route matches "/email/remind" with {:method=>:get, :domain=>"miliga.local", :host=>"mexicana.miliga.local", :subdomain=>"mexicana"}):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:05:21) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (8.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-05 16:05:24) [GET]
+
+ActionController::RoutingError (No route matches "/email/remind" with {:method=>:get, :domain=>"miliga.local", :host=>"miliga.local", :subdomain=>nil}):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+** SubdomainFu: initialized properly
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:12:20) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:12:34) [GET]
+
+NoMethodError (undefined method `param_posted?' for #<EmailController:0xb695a9b4>):
+  app/controllers/email_controller.rb:6:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (62.8ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:16:34) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:17:51) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:17:54) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 6ms (View: 3, DB: 1) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:18:57) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 9ms (View: 6, DB: 21) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (6.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:19:26) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 9ms (View: 6, DB: 7) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (5.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:19:45) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `reminder' for #<UserMailer:0xb69d2838>):
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (63.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:23:44) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 9ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:23:45) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:23:45) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:23:50) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"DFJGNo/GYatB7u6HYEZgMY5ArFToIuOi/6nNEWWlsgw=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `reminder' for #<UserMailer:0xb696aaa8>):
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (61.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:24:18) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (11.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:24:21) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 11) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:24:29) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `reminder' for #<UserMailer:0xb69524f8>):
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (58.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:28:39) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:28:40) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:28:40) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:28:41) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 17ms (View: 7, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:29:20) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 28ms (View: 22, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:29:26) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `random_password' for #<User:0xb6a00f44>):
+  app/models/user_mailer.rb:19:in `reminder'
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (65.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:32:48) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 7ms (View: 4, DB: 3) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:32:48) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 115ms (View: 2, DB: 1) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:32:50) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>""}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 8ms (View: 2, DB: 2) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:32:58) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NameError (undefined local variable or method `current_domain' for #<UserMailer:0xb6971768>):
+  app/models/user_mailer.rb:20:in `reminder'
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (64.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:38:02) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:38:03) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (13.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:38:03) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 14) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:38:04) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:38:08) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+
+NoMethodError (undefined method `assign_random_password' for #<User:0xb68acb20>):
+  app/models/user_mailer.rb:20:in `reminder'
+  app/controllers/email_controller.rb:10:in `remind'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (62.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:40:11) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:40:12) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:40:13) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:40:25) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'lalo.moreno86@gmail.com' AND `users`.id <> 2) LIMIT 1[0m
+  [4;36;1mUser Update (0.3ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-10-05 21:40:25', `crypted_password` = '6vn9qk5t' WHERE `id` = 2[0m
+  [4;35;1mSQL (5.7ms)[0m   [0mCOMMIT[0m
+Sent mail to lalo.moreno86@gmail.com
+
+Date: Mon, 5 Oct 2009 16:40:25 -0500
+From: magnolia@innku.com
+To: lalo.moreno86@gmail.com
+Subject: =?utf-8?Q?Informaci=C3=B3n_para_accesar_a_Rutanet?=
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<body>
+	<div style="width: 550px; font-family: Lucida Grande, geneva, arial, verdana, sans-serif; font-size: 90%; margin-left: auto; margin-right: auto;">
+		<img src="http://www./images/header_email.jpg">
+		<p style="font-size: 140%; font-weight: bold;">Nueva Contraseña</p>
+		<p>Estimado Eduardo Moreno</p>
+
+		<p>Se te ha generado una nueva contraseña aleatoria para tu acceso a Rutanet:</p>
+		
+		<p><b>Correo Electrónico: </b>lalo.moreno86@gmail.com<br />
+		   <b>Contraseña: </b></p>
+	</div>
+</body>
+
+Redirected to http://miliga.local/email/remind
+Completed in 232ms (DB: 8) | 302 Found [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:40:25) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:45:58) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (6.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-10-05 16:46:01) [POST]
+  Parameters: {"commit"=>"Entrar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (email = 'magno.gutierrez@gmail.com' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://miliga.local/leagues
+Completed in 10ms (DB: 8) | 302 Found [http://miliga.local/session]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 16:46:01) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/leagues
+Rendering leagues/index
+  [4;36;1mLeague Load (0.2ms)[0m   [0;1mSELECT * FROM `leagues` WHERE (`leagues`.user_id = 1) [0m
+  [4;35;1mLeague Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `leagues`[0m
+Completed in 32ms (View: 17, DB: 2) | 200 OK [http://miliga.local/leagues]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-10-05 16:46:07) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://miliga.local/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:48:39) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:49:23) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:49:23) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing ApplicationController#remind (for 127.0.0.1 at 2009-10-05 16:49:27) [GET]
+
+SyntaxError (/home/magno/Proyectos/miliga/app/controllers/email_controller.rb:12: syntax error, unexpected ':', expecting kEND
+        redirect_to :controller => "sessions" :action => "new"
+                                               ^):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:49:45) [GET]
+Rendering template within layouts/application
+Rendering email/remind
+Completed in 11ms (View: 2, DB: 0) | 200 OK [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing EmailController#remind (for 127.0.0.1 at 2009-10-05 16:49:52) [POST]
+  Parameters: {"commit"=>"Enviar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"email"=>"lalo.moreno86@gmail.com"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`email` = 'lalo.moreno86@gmail.com') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'lalo.moreno86@gmail.com' AND `users`.id <> 2) LIMIT 1[0m
+  [4;36;1mUser Update (0.4ms)[0m   [0;1mUPDATE `users` SET `updated_at` = '2009-10-05 21:49:52', `crypted_password` = 'dwhq4ymn' WHERE `id` = 2[0m
+  [4;35;1mSQL (6.5ms)[0m   [0mCOMMIT[0m
+Sent mail to lalo.moreno86@gmail.com
+
+Date: Mon, 5 Oct 2009 16:49:52 -0500
+From: magnolia@innku.com
+To: lalo.moreno86@gmail.com
+Subject: =?utf-8?Q?Informaci=C3=B3n_para_accesar_a_Rutanet?=
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+<body>
+	<div style="width: 550px; font-family: Lucida Grande, geneva, arial, verdana, sans-serif; font-size: 90%; margin-left: auto; margin-right: auto;">
+		<img src="http://www./images/header_email.jpg">
+		<p style="font-size: 140%; font-weight: bold;">Nueva Contraseña</p>
+		<p>Estimado Eduardo Moreno</p>
+
+		<p>Se te ha generado una nueva contraseña aleatoria para tu acceso a Rutanet:</p>
+		
+		<p><b>Correo Electrónico: </b>lalo.moreno86@gmail.com<br />
+		   <b>Contraseña: </b></p>
+	</div>
+</body>
+
+Redirected to http://miliga.local/session/new
+Completed in 40ms (DB: 9) | 302 Found [http://miliga.local/email/remind]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:49:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/session/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-10-05 16:50:42) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://miliga.local/register]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-10-05 16:50:45) [POST]
+  Parameters: {"commit"=>"Registrarme", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "user"=>{"name"=>"", "password_confirmation"=>"", "lastname"=>"", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Exists (0.3ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'magno.gutierrez@gmail.com') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 26ms (View: 7, DB: 2) | 200 OK [http://miliga.local/users]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:02) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (8.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-10-05 16:51:08) [POST]
+  Parameters: {"commit"=>"Entrar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (email = 'magno.gutierrez@gmail.com' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://miliga.local/leagues
+Completed in 10ms (DB: 10) | 302 Found [http://miliga.local/session]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 16:51:08) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/leagues
+Rendering leagues/index
+  [4;36;1mLeague Load (0.1ms)[0m   [0;1mSELECT * FROM `leagues` WHERE (`leagues`.user_id = 1) [0m
+  [4;35;1mLeague Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `leagues`[0m
+Completed in 26ms (View: 8, DB: 2) | 200 OK [http://miliga.local/leagues]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#show (for 127.0.0.1 at 2009-10-05 16:51:20) [GET]
+Redirected to http://mexicana.miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 20ms (DB: 0) | 302 Found [http://mexicana.miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:20) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:40) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:41) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:41) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://miliga.local/session/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-10-05 16:51:44) [POST]
+  Parameters: {"remember_me"=>"1", "commit"=>"Entrar", "authenticity_token"=>"1BXgxAlYb3OhTSnJm3mEZ89wnfNNcPXWNddpYZyJkXg=", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (email = 'magno.gutierrez@gmail.com' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Update (0.4ms)[0m   [0mUPDATE `users` SET `updated_at` = '2009-10-05 21:51:44', `remember_token_expires_at` = '2009-10-19 21:51:44', `remember_token` = '88b444c092da5d03a509c2ebeb761a33e504000b' WHERE `id` = 1[0m
+  [4;36;1mSQL (5.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://miliga.local/leagues
+Completed in 145ms (DB: 8) | 302 Found [http://miliga.local/session]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 16:51:44) [GET]
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/leagues
+Rendering leagues/index
+  [4;35;1mLeague Load (0.1ms)[0m   [0mSELECT * FROM `leagues` WHERE (`leagues`.user_id = 1) [0m
+  [4;36;1mLeague Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `leagues`[0m
+Completed in 24ms (View: 8, DB: 2) | 200 OK [http://miliga.local/leagues]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#show (for 127.0.0.1 at 2009-10-05 16:51:47) [GET]
+Redirected to http://mexicana.miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (DB: 0) | 302 Found [http://mexicana.miliga.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:47) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:52) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:53) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+  [4;36;1mSQL (7.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:51:53) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 20ms (View: 16, DB: 8) | 200 OK [http://mexicana.miliga.local/session/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:52:08) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://miliga.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-10-05 16:52:11) [POST]
+  Parameters: {"remember_me"=>"1", "commit"=>"Entrar", "authenticity_token"=>"fgomRzPUGRHDLyaDwwQ3n8GIcD+Q0uf/gpcEb8TUIHA=", "password"=>"magnolia", "email"=>"magno.gutierrez@gmail.com"}
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (email = 'magno.gutierrez@gmail.com' and activated_at IS NOT NULL) LIMIT 1[0m
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Redirected to http://miliga.local/leagues
+Completed in 54ms (DB: 2) | 302 Found [http://miliga.local/session]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#index (for 127.0.0.1 at 2009-10-05 16:52:11) [GET]
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+Rendering template within layouts/leagues
+Rendering leagues/index
+  [4;36;1mLeague Load (0.2ms)[0m   [0;1mSELECT * FROM `leagues` WHERE (`leagues`.user_id = 1) [0m
+  [4;35;1mLeague Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `leagues`[0m
+Completed in 56ms (View: 29, DB: 2) | 200 OK [http://miliga.local/leagues]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing LeaguesController#show (for 127.0.0.1 at 2009-10-05 16:52:13) [GET]
+Redirected to http://mexicana.miliga.local/session/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 1ms (DB: 0) | 302 Found [http://mexicana.miliga.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+DEPRECATION WARNING: Disabling sessions for a single controller has been deprecated. Sessions are now lazy loaded. So if you don't access them, consider them off. You can still modify the session cookie options with request.session_options.. (called from /home/magno/Proyectos/miliga/app/controllers/application_controller.rb:13)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-10-05 16:52:13) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://mexicana.miliga.local/session/new]

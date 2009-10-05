@@ -1,0 +1,13 @@
+<body>
+	<div style="width: 550px; font-family: Lucida Grande, geneva, arial, verdana, sans-serif; font-size: 90%; margin-left: auto; margin-right: auto;">
+		<img src="http://www.<%= @domain %>/images/header_email.jpg">
+		<p style="font-size: 140%; font-weight: bold;">Nueva Contraseña</p>
+		<p>Estimado <%= @user.name %> <%= @user.lastname %></p>
+
+		<p>Se te ha generado una nueva contraseña aleatoria para tu acceso a Rutanet:</p>
+		
+		<p><b>Correo Electrónico: </b><%= @user.email %><br />
+		   <b>Contraseña: </b><%= @crypted_password %></p>
+	</div>
+</body>
+

@@ -31,6 +31,17 @@ class User < ActiveRecord::Base
   # anything else you want your user to change should be added here.
   attr_accessible :name, :lastname, :email, :password, :password_confirmation
   # Activates the user in the database.
+
+	def random_password(size = 8)
+    chars = (('a'..'z').to_a + ('0'..'9').to_a) - %w(i o 0 1 l 0)
+    (1..size).collect{|a| chars[rand(chars.size)] }.join
+  end
+
+  def assign_random_password(random_password)
+    self.crypted_password = random_password
+    self.save
+  end
+	
   def activate
     @activated = true
     self.activated_at = Time.now.utc
