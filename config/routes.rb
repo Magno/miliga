@@ -16,6 +16,8 @@ ActionController::Routing::Routes.draw do |map|
   map.resource :session
   map.resources :sessions
 
+	map.league_root '', :controller => 'leagues', :action => 'show', :conditions => {:subdomain => /.+/}
+
 	#map.activate '/activate/:activation_code', :controller => 'users', :action => 'activate', :activation_code => nil
 	map.register '/register', :controller => 'users', :action => 'new'
 	map.login '/login', :controller => 'sessions', :action => 'new'

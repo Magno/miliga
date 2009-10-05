@@ -1,10 +1,9 @@
 class TeamsController < ApplicationController
 	before_filter :login_required
-	before_filter :load_league
   # GET /teams
   # GET /teams.xml
   def index
-    @teams = @current_league.teams.all
+    @teams = Team.all
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,7 +14,7 @@ class TeamsController < ApplicationController
   # GET /teams/1
   # GET /teams/1.xml
   def show
-    @team = @current_league.teams.find(params[:id])
+    @team = Team.find(params[:id])
 		@players = @team.players
     respond_to do |format|
       format.html # show.html.erb
@@ -26,7 +25,7 @@ class TeamsController < ApplicationController
   # GET /teams/new
   # GET /teams/new.xml
   def new
-    @team = @current_league.teams.new(:league_id => params[:league_id])
+    @team = Team.new(:league_id => params[:league_id])
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @team }

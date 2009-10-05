@@ -16,7 +16,7 @@ before_filter :login_required
   # GET /leagues/1
   # GET /leagues/1.xml
   def show
-    @league = League.find(params[:id])
+    @league = League.find_by_leaguesubdomain(current_subdomain)
 		@tournaments = @league.tournaments
 		@teams = @league.teams
     respond_to do |format|

@@ -3,12 +3,12 @@
 <table>
   <tr>
     <th>Nombre</th>
-    <th>Dominio</th>
+    <th>Subdominio</th>
   </tr>
 
 <% @leagues.each do |league| %>
   <tr>
-    <td><%= link_to league.leaguename, league %></td>
+    <td><%= link_to league.leaguename, league_root_url(:subdomain => league.leaguesubdomain) %></td>
     <td><%=h league.leaguesubdomain%>.miliga.com</td>
     <td><%= link_to 'Editar', edit_league_path(league) %></td>
     <td><%= link_to 'Borrar', league, :confirm => 'Estas seguro que deseas borrar la liga?', :method => :delete %></td>
