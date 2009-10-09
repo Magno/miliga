@@ -10,8 +10,8 @@
 
 <% @matches.each do |match| %>
   <tr>
-    <td><%= link_to match.team1id, match %></td>
-    <td><%= link_to match.team2id, match %></td>
+    <td><%= link_to match.localteam, match %></td>
+    <td><%= link_to match.visitteam, match %></td>
     <td><%=h match.matchdate %></td>
     <td><%=h match.matchtime %></td>
     <td><%= link_to 'Editar', edit_match_path(match) %></td>

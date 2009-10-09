@@ -3,7 +3,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :players
 
-  map.resources :teams
+	map.resources :teams
 
   map.resources :weeks
 

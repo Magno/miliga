@@ -6,13 +6,15 @@
 <%= f.hidden_field :week_id %>
 
   <p>
-    <label for= "team1id"> Equipo Local: </label><br/>
-    <%= f.text_field :team1id %>
+    <%= f.label :localteam, "Equipo Local:" %> 
+		<%= f.collection_select :localteam, Team.find(:all), :id, :teamname %>
   </p>
-  <p>
-    <label for= "team2id"> Equipo visitante: </label><br/>
-    <%= f.text_field :team2id %>
-  </p>
+
+	<p>
+		<%= f.label :visitteam, "Equipo Local:" %> 
+		<%= f.collection_select :visitteam, Team.find(:all), :id, :teamname %>
+	</p>
+
   <p>
     <label for= "matchdate"> Fecha de encuentro: </label><br/>
     <%= f.date_select :matchdate %>

@@ -2,8 +2,8 @@ class CreateMatches < ActiveRecord::Migration
   def self.up
     create_table :matches do |t|
       t.integer :week_id
-      t.integer :team1id
-      t.integer :team2id
+      t.integer :localteam
+      t.integer :visitteam
       t.date :matchdate
       t.datetime :matchtime
 

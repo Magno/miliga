@@ -5,7 +5,6 @@ before_filter :login_required
   # GET /matches.xml
   def index
     @matches = Match.all
-
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @matches }

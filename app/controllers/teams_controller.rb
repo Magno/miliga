@@ -4,11 +4,10 @@ class TeamsController < ApplicationController
   # GET /teams
   # GET /teams.xml
   def index
-    @teams = @current_league.teams.all
+    @teams = @current_league.teams.find(:all, :conditions => ['teamname LIKE ?', "%#{params[:search]}%"])
 
     respond_to do |format|
-      format.html # index.html.erb
-      format.xml  { render :xml => @teams }
+			format.js { }
     end
   end
 
